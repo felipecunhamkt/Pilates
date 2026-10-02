@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1000" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap');
+      .paper-bg { fill: #FAF7F2; }
+      .brand-title { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; fill: #24382B; letter-spacing: 0.5px; }
+      .brand-sub { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13px; font-weight: 600; fill: #6B7C67; text-transform: uppercase; letter-spacing: 2px; }
+      .sec-title { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; fill: #24382B; }
+      .body-text { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 13.5px; fill: #4A554A; line-height: 1.5; }
+      .bold-text { font-weight: 600; fill: #24382B; }
+      .badge-text { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 11px; font-weight: 600; fill: #7E4B34; text-transform: uppercase; letter-spacing: 1px; }
+      .page-num { font-family: 'Plus Jakarta Sans', sans-serif; font-size: 12px; fill: #8A9687; }
+    </style>
+    <linearGradient id="peachGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF3EE"/>
+      <stop offset="100%" stop-color="#F7E2D5"/>
+    </linearGradient>
+    <linearGradient id="sageGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF3EE"/>
+      <stop offset="100%" stop-color="#E2EBE0"/>
+    </linearGradient>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#24382B" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="750" height="1000" class="paper-bg"/>
+  <rect x="25" y="25" width="700" height="950" fill="none" stroke="#E3DDD3" stroke-width="1.2"/>
+  <rect x="30" y="30" width="690" height="940" fill="none" stroke="#EDE8DF" stroke-width="0.8"/>
+
+  <!-- Header -->
+  <g transform="translate(60, 75)">
+    <text x="0" y="0" class="brand-sub">GUÍA COMPLEMENTARIA · CAPÍTULO 4</text>
+    <text x="0" y="36" class="brand-title">Recetas Nutritivas &amp; Hábitos de Bienestar</text>
+    <text x="0" y="62" class="body-text" font-style="italic">Opciones prácticas para complementar tu energía antes y después de cada práctica.</text>
+    <line x1="0" y1="80" x2="630" y2="80" stroke="#DDD7CC" stroke-width="1"/>
+  </g>
+
+  <!-- Recipe Card 1: Smoothie Verde -->
+  <g transform="translate(60, 185)" filter="url(#softShadow)">
+    <rect width="630" height="235" rx="14" fill="#FFFFFF" stroke="#E5E0D5" stroke-width="1"/>
+    <!-- Badge -->
+    <rect x="24" y="22" width="160" height="26" rx="13" fill="url(#sageGrad)"/>
+    <text x="36" y="39" class="brand-sub" font-size="10.5" fill="#4B6349">OPCIÓN PRE-PRÁCTICA</text>
+    
+    <text x="24" y="78" class="sec-title">1. Batido Verde Energizante y Ligero</text>
+    <text x="24" y="100" class="body-text">Aporta hidratación profunda sin sensación de pesadez.</text>
+
+    <!-- Ingredients Column -->
+    <g transform="translate(24, 120)">
+      <rect width="280" height="90" rx="8" fill="#F8FBF7"/>
+      <text x="14" y="22" class="brand-sub" font-size="11" fill="#40593E">Ingredientes:</text>
+      <text x="14" y="44" class="body-text">• 1 puñado de espinacas frescas</text>
+      <text x="14" y="64" class="body-text">• ½ pepino pequeño en rodajas</text>
+      <text x="14" y="84" class="body-text">• 200 ml de agua de coco o agua fresca</text>
+    </g>
+
+    <!-- Preparation Column -->
+    <g transform="translate(325, 120)">
+      <rect width="280" height="90" rx="8" fill="#FBF9F5"/>
+      <text x="14" y="22" class="brand-sub" font-size="11" fill="#786B5A">Preparación:</text>
+      <text x="14" y="44" class="body-text">1. Lavar bien los vegetales.</text>
+      <text x="14" y="64" class="body-text">2. Licuar durante 45 segundos hasta</text>
+      <text x="14" y="84" class="body-text">   lograr una textura suave y homogénea.</text>
+    </g>
+  </g>
+
+  <!-- Recipe Card 2: Bowl Pos-rutina -->
+  <g transform="translate(60, 445)" filter="url(#softShadow)">
+    <rect width="630" height="235" rx="14" fill="#FFFFFF" stroke="#E5E0D5" stroke-width="1"/>
+    <!-- Badge -->
+    <rect x="24" y="22" width="165" height="26" rx="13" fill="url(#peachGrad)"/>
+    <text x="36" y="39" class="badge-text">RECUPERACIÓN MUSCULAR</text>
+    
+    <text x="24" y="78" class="sec-title">2. Tazón de Yogur con Frutas y Semillas</text>
+    <text x="24" y="100" class="body-text">Combinación de proteínas suaves y micronutrientes para el descanso.</text>
+
+    <!-- Ingredients Column -->
+    <g transform="translate(24, 120)">
+      <rect width="280" height="90" rx="8" fill="#FDF7F3"/>
+      <text x="14" y="22" class="brand-sub" font-size="11" fill="#884C32">Ingredientes:</text>
+      <text x="14" y="44" class="body-text">• 1 taza de yogur natural sin azúcar</text>
+      <text x="14" y="64" class="body-text">• 1 cucharada de semillas de chía</text>
+      <text x="14" y="84" class="body-text">• ½ taza de frutos rojos frescos</text>
+    </g>
+
+    <!-- Preparation Column -->
+    <g transform="translate(325, 120)">
+      <rect width="280" height="90" rx="8" fill="#FBF9F5"/>
+      <text x="14" y="22" class="brand-sub" font-size="11" fill="#786B5A">Preparación:</text>
+      <text x="14" y="44" class="body-text">1. Servir el yogur en un tazón hondo.</text>
+      <text x="14" y="64" class="body-text">2. Decorar con las frutas y espolvorear</text>
+      <text x="14" y="84" class="body-text">   las semillas. Disfrutar al terminar.</text>
+    </g>
+  </g>
+
+  <!-- Section 3: Consejos de Práctica Diaria -->
+  <g transform="translate(60, 705)">
+    <rect width="630" height="200" rx="14" fill="#EDF3EC" stroke="#D3DFD1" stroke-width="1"/>
+    <g transform="translate(26, 24)">
+      <text x="0" y="16" class="sec-title" font-size="18">Consejos para Acompañar tu Rutina en Casa</text>
+      
+      <circle cx="8" cy="46" r="4" fill="#5A7757"/>
+      <text x="22" y="50" class="body-text"><tspan class="bold-text">Respira con intención:</tspan> Mantén un ritmo nasal pausado durante cada serie guiada.</text>
+
+      <circle cx="8" cy="80" r="4" fill="#5A7757"/>
+      <text x="22" y="84" class="body-text"><tspan class="bold-text">Hidratación continua:</tspan> Bebe agua en pequeños sorbos antes y después de tu práctica.</text>
+
+      <circle cx="8" cy="114" r="4" fill="#5A7757"/>
+      <text x="22" y="118" class="body-text"><tspan class="bold-text">Escucha a tu cuerpo:</tspan> Prioriza siempre la postura y precisión sobre la cantidad de repeticiones.</text>
+
+      <circle cx="8" cy="148" r="4" fill="#5A7757"/>
+      <text x="22" y="152" class="body-text"><tspan class="bold-text">Consistencia amable:</tspan> 15 a 20 minutos de práctica enfocada construyen un hábito duradero.</text>
+    </g>
+  </g>
+
+  <!-- Footer Pagination -->
+  <g transform="translate(60, 942)">
+    <line x1="0" y1="0" x2="630" y2="0" stroke="#E3DDD3" stroke-width="1"/>
+    <text x="0" y="24" class="page-num">PILATES EN CASA: EJERCICIOS, RECETAS Y CONSEJOS</text>
+    <text x="600" y="24" class="page-num" text-anchor="end">PÁGINA 38</text>
+  </g>
+</svg>
